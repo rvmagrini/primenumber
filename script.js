@@ -49,7 +49,7 @@ implementar: linguagem programacao - implement
 // Function to check if it is prime
 
 const isPrime = (number) => {
-  if (number === 1) {
+  if (number === 1 || number === 0) {
     return false;
   }
 
@@ -96,7 +96,10 @@ document.querySelector("#findbtn").addEventListener("click", function () {
       isPrime(i) && primeArr.push(i);
     }
 
-    primeArr.map((num) => (outcomeFind.innerHTML += `  ${num}  `));
+    const primeStr = primeArr.join(", ");
+    console.log(primeStr);
+
+    outcomeFind.innerHTML += `${primeStr}`;
   }
 });
 
