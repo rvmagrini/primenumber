@@ -47,7 +47,6 @@ implementar: linguagem programacao - implement
 // Implementation
 
 // Function to check if it is prime
-
 const isPrime = (number) => {
   if (number === 1 || number === 0) {
     return false;
@@ -61,7 +60,7 @@ const isPrime = (number) => {
   return true;
 };
 
-// Check if the set number is prime
+// Handle Check Click
 document.querySelector("#checkbtn").addEventListener("click", function () {
   let txtNum = document.querySelector("#txtnum").value;
   let outcomeCheck = document.querySelector("#outcomecheck");
@@ -71,12 +70,10 @@ document.querySelector("#checkbtn").addEventListener("click", function () {
     isPrime(num)
       ? (outcomeCheck.innerHTML = `Yes, ${num} is a prime number.`)
       : (outcomeCheck.innerHTML = `No, ${num} is not a prime number.`);
-  } else {
-    outcomeCheck.innerHTML = `Please insert a valid number greater than 0.`;
   }
 });
 
-// Find out all prime numbers between the set numbers
+// Find Out all prime numbers between the set numbers
 
 document.querySelector("#findbtn").addEventListener("click", function () {
   let txtFirstNum = document.querySelector("#txtfirstnum").value;
