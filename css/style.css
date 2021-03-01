@@ -21,11 +21,11 @@ input {
 }
 
 div {
-  width: 50%;
+  width: 40%;
   margin: 10px auto;
   padding: 40px 20px;
   border-radius: 18px;
-  background-color: #86aba1;
+  border: 2px solid black;
 }
 
 #checkdiv {
