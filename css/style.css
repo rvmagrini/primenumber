@@ -18,13 +18,13 @@ p {
 input {
   width: 60px;
   padding: 5px;
-  border: 2px solid rgb(114, 112, 112);
+  border: 2px solid rgb(100, 99, 99);
   border-radius: 8px;
 }
 
 div {
   width: 40%;
-  margin: 10px auto;
+  margin: 25px auto;
   padding: 40px 20px;
   border-radius: 18px;
   border: 2px solid black;
