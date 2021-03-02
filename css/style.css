@@ -18,6 +18,8 @@ p {
 input {
   width: 60px;
   padding: 5px;
+  border: 2px solid rgb(114, 112, 112);
+  border-radius: 8px;
 }
 
 div {
